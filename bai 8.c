@@ -13,8 +13,7 @@ int main() {
         printf("doi dau tu so am sang so duong \n");
         num = -num;
     }
-
-    temp = num;
+	temp = num;
 
     while (temp > 0) {
         reverse = reverse * 10 + temp % 10;
@@ -26,8 +25,7 @@ int main() {
         printf("%d ", reverse % 10);
         reverse /= 10;
     }
-
-    printf("\n");
+	printf("\n");
 
     return 0;
 }
