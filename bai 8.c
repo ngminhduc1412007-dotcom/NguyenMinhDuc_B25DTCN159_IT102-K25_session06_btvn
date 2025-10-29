@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h> 
 
 int main() {
     int num;
@@ -9,7 +10,7 @@ int main() {
     scanf("%d", &num);
 
     if (num < 0) {
-        printf("doi dau tu so am sang so duong\n");
+        printf("doi dau tu so am sang so duong \n");
         num = -num;
     }
 
